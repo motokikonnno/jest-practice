@@ -1,0 +1,32 @@
+export const activeUsers = [
+  {
+    id: "1",
+    name: "Elliot Moller",
+    from: "Copenhagen, Denmark",
+    image: "/Images/Avatar.png",
+    percent: 70,
+    level: 15,
+    point: 4723,
+    color: "bg-emerald-green",
+  },
+  {
+    id: "2",
+    name: "Olivia Pedersen",
+    from: "Copenhagen, Denmark",
+    image: "/Images/Avatar.png",
+    percent: 50,
+    level: 11,
+    point: 2339,
+    color: "bg-status-blue",
+  },
+  {
+    id: "3",
+    name: "Niklas Doring",
+    from: "Berlin, Germany",
+    image: "/Images/Avatar.png",
+    percent: 30,
+    level: 16,
+    point: 1884,
+    color: "bg-status-purple",
+  },
+];

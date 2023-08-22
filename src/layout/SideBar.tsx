@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const SideBar = () => {
   return (
-    <aside className="sticky bg-slate-950 top-0 bottom-0 h-screen w-20 flex flex-col items-center justify-between pt-8 pb-6">
+    <aside className="sticky bg-slate-950 top-0 bottom-0 h-screen flex flex-col items-center justify-between pt-8 pb-6">
       <div className="cursor-pointer">
         <Image src={"/images/Avatar.png"} width={40} height={40} alt="avatar" />
       </div>
